@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Reports</title>
+    <link rel="stylesheet" href="reports.css">
+</head>
+<body>
+    <div class="header">
+        <nav id="navbar">
+            <img src="logopicture.png" class="logo">
+            <ul id="menu">
+                <li>
+                    <a href="#">HOME</a>
+                </li>
+                <li>
+                <a href="#">HOSPITALS</a>
+                   
+                </li>
+                <li>
+                    <a href="#">SERVICES</a>
+                </li>
+                <li>
+                    <a href="#">TREATMENTS</a>
+                </li>
+                <li>
+                    <a href="#">ONLINE PHARMACY</a>
+                </li>
+                <li>
+                    <a href="#">COVID-19 ENQUIRY</a>
+                </li>
+            </ul>
+        
+        </nav>
+    </div>
+    <p class="text">
+        <b>GUIDELINES FOR UPLOADING REPORTS TO QUICK HEALTH </b><br>
+        1) Scroll down the webpage and find the button "Upload Report"<br>
+        2) Kindly ensure that the pdf size does not exceed 500 KB.<br>
+        3)Avoid blurred image<br>
+        4)Ensure suggested tests are cleary visible in the image<br>
+    </p>
+    <p class="text">
+        <b>WHY SHOULD PATIENTS UPLOAD THEIR REPORTS? </b>
+    </p>
+    
+    <p class="text">
+        On the basis of these reports and in combination with the information provided in the anamnesis questionnaire the medical specialist will conclude his second opinion.<br>Medical records comprise medical findings and medical imagery such as MRI, CT, X-Rays.<br>Patients are asked to upload their medical records to their highly secured user account so the specialist can access them electronically.<br> If parts of your medical records are only available in paper form, please digitalize them by scanning or photographing them. Of course you can also send them via courier service to us and the digitalization will be done by DOCTORITAS.
+    </p>
+    
+    
+    <p class="text">
+        Every patient has the right to receive a copy of his medical records from the examining doctor and/or health care institution.<br>
+If you have any question to this request please contact us.
+    </p>
+    
+
+    <div class="container">
+        <img src="hitech.jpg"  style="width:100%">
+        <button class="btn">Upload Report</button>
+    </div>
+    <p class="text">
+       <b> Advantages of Electronic Health Records:</b>
+      EHRs and the ability to exchange health information electronically can help you provide higher quality and safer care for patients while creating tangible enhancements for your organization. EHRs help providers better manage care for patients and provide better health care by:<br>
+
+      1) Providing accurate, up-to-date, and complete information about patients at the point of care. <br>
+      2) Enabling quick access to patient records for more coordinated, efficient care.<br>
+      3) Securely sharing electronic information with patients and other clinicians.<br>
+      4) Helping providers more effectively diagnose patients, reduce medical errors, and provide safer care.<br>
+      5) Improving patient and provider interaction and communication, as well as health care convenience.<br>
+      6) Enabling safer, more reliable prescribing.<br>
+    </p>
+    
+
+
+
+    <script>
+         var navbar= document.getElementById("navbar")
+         var menu= document.getElementById("menu")
+
+         window.onscroll = function(){
+             if(window.pageYOffset >= menu.offsetTop){
+                 navbar.classList.add("sticky");
+            }
+            else{ 
+                navbar.classList.remove("sticky");
+            }
+         }
+
+    </script>
+    
+</body>
+</html>

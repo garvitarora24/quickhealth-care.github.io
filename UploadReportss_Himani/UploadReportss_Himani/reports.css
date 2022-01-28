@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.header{
+    background-color: #7868E6;
+    background-position: center;
+    
+}
+nav{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+#navbar:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.logo{
+    width: 150px;
+    margin: 20px;
+    cursor: pointer;
+}
+nav ul{
+    background: #7868E6;
+    width: 100%;
+    margin-top:10px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 30px;
+    color: #fff;
+}
+#nav-area>ul>li {
+	float: left;
+	position: relative;
+}
+.text{
+    padding: 20px 8% ;
+    font-size: x-large;
+}
+nav.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 8%;
+    background: #7868E6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav.sticky ul{
+    width: auto;
+}
+#navbar ul li a{
+    text-decoration: none;
+	color: #fff;
+    display: block;
+}
+#navbar ul li:hover a {
+	background: #262626;
+}
+#navbar ul ul {
+	position: absolute;
+	padding: 0;
+	min-width: 160px;
+	display: none;
+	top: 100%;
+	left: 0;
+}
+#navbar ul li:hover>ul {
+	display: block;
+}
+.button {
+    display: flex;
+    height: 50px;
+    padding: 0;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background: #008168;
+  }
+  
+  .button:active {
+    background: #006e58;
+  }
+  
+  .button__text,
+  .button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+  }
+  
+  .button__icon {
+    font-size: 1.5em;
+    background: #7868E6;
+  }
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #7868E6;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
